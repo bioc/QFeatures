@@ -1,5 +1,10 @@
 # QFeatures 1.14
 
+## QFeatures 1.14.2
+
+- Fix bug in `QFeatures::longFormat()` when rownames are numerical
+  (reported upstream https://github.com/waldronlab/MultiAssayExperiment/issues/331).
+
 ## QFeatures 1.14.1
 
 - Import `reshape2::melt`, required for
